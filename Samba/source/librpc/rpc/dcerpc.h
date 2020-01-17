@@ -108,7 +108,7 @@ struct dcerpc_pipe {
 };
 
 /* default timeout for all rpc requests, in seconds */
-#define DCERPC_REQUEST_TIMEOUT 60
+#define DCERPC_REQUEST_TIMEOUT 360
 
 
 /* dcerpc pipe flags */
